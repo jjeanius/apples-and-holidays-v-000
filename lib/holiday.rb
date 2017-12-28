@@ -86,7 +86,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.collect do |day, supplies|
       if supplies == "BBQ"
         puts day
-      end
+      endayd
     end
   end
 end
