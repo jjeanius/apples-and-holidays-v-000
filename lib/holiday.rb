@@ -83,9 +83,9 @@ end
 def all_holidays_with_bbq(holiday_hash)
   array = []
   holiday_hash.each do |season, holidays|
-    holidays.each do |day, supplies|
+    holidays.collect do |day, supplies|
       if supplies == "BBQ"
-        array[day]
+        
       end
 
     end
